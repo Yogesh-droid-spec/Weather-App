@@ -1,0 +1,91 @@
+.app{
+    display: flex;
+}
+
+/* Weather  */
+.weather{
+    padding-top: 50px;
+    background-color: #FF5C58;
+    height:780px;
+    width: 750px;
+    position: relative;
+;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:3.5rem;
+}
+
+.inputBox{
+    background: transparent;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 40px;
+    border-radius:  3px;
+    border: 1px solid #9AD0EC;
+    text-align: center;
+    color: white;
+    outline-color:#9AD0EC;
+    font-size: 1.2rem;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+button{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: transparent;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+}
+
+/* WeattherData  */
+.weatherData{
+    background-color:#FFF8F3;
+background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    height: 780px;
+    width: 800px;
+    position: relative;
+}
+
+.city{
+    font-family: 'Open Sans', sans-serif;
+    color: #548CFF;
+    font-size: 3rem;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.weatherImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.temp{
+    position: absolute;
+    top: 80%;
+    left: 43%;
+    color: #548CFF;
+    font-size: 3rem;
+}
